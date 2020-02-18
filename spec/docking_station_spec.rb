@@ -8,7 +8,12 @@ describe DockingStation do
       expect(bike).to be_working
 end
     it { is_expected.to respond_to(:dock_bike).with(1).argument }
-end
+
+    it { is_expected.to respond_to(:bike) }
+
+  end
+
+
 #     docking_station = DockingStation.new
 #     it "it gets a bike" do
 #       expect(docking_station.release_bike).to be_instance_of(Bike)
