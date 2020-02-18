@@ -1,11 +1,8 @@
 class DockingStation
   def release_bike
-    Bike.new
+    release_bike = Bike.new
   end
-end
 
-class Bike
-  def working?
-    true
+  def dock_bike(bike)
   end
 end
